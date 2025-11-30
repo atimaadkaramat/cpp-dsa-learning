@@ -9,16 +9,6 @@ Here I upload everything I practice — from basic syntax to Data Structures & A
 - To help others who are also learning C++.
 - To build consistency.
 
-## 📁 Folder Structure
-- **01_basics** – syntax, variables, operators  
-- **02_control_structures** – if/else, loops, switch  
-- **03_functions** – functions, recursion  
-- **04_arrays_strings** – 1D/2D arrays, strings  
-- **05_pointers_references** – pointers, memory  
-- **06_oops** – classes, objects, inheritance, polymorphism  
-- **07_stl** – vectors, maps, sets, algorithms  
-- **08_dsa_problems** – topic-wise DSA coding questions  
-
 ## 🛠 Tools I Use
 - **VS Code**
 - **G++ compiler**
