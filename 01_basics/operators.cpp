@@ -34,5 +34,19 @@ int main(){
     // NOT Gate
     cout << (Coffe &&  !Tea) << endl; // (not Tea) = True
 
+
+    // Bitwise Operators
+    cout << (a & b) << endl; // AND
+
+    cout << (a | b) << endl; // OR
+
+    cout << (a ^ b) << endl; //XOR
+
+    cout << (a << b) << endl; // Left Shift
+
+    cout << (a >> b) << endl; // Right Shift 
+
+
+
     return 0;
 }
