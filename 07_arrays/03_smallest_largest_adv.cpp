@@ -4,13 +4,13 @@ using namespace std;
 
 void smallestAndLargest(int arr[],int size){
 
-    int smallest = INT_MAX; 
-    int largest = INT_MIN; 
+    int smallest = INT_MAX; // INT_MAX is +ve infinite
+    int largest = INT_MIN;  // INT_MIN is -ve infinite
 
     for (int i = 0; i < size; i++)
     {
-       smallest = min(arr[i], smallest);
-       largest = max(arr[i], largest);
+       smallest = min(arr[i], smallest); // min returns the smallest among them
+       largest = max(arr[i], largest);   // max returns the largest among them
         
     }
 
