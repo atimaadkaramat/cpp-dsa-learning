@@ -7,7 +7,7 @@ int main()
 
     vector<int> vec(5, 1);
 
-    cout << "size = " << vec.size();
+    cout << "size = " << vec.size(); // .size() tells the size of vector
 
     return 0;
 }
