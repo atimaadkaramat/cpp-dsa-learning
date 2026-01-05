@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-vector<int> productExceptSelf(vector<int>& nums){ // O(n^2)
+vector<int> productExceptSelf(vector<int>& nums){ // O(n)
     int n = nums.size();
     vector<int> ans(n,1);
     vector<int> prefix(n,1);
