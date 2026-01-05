@@ -15,7 +15,7 @@ vector<int> productExceptSelf(vector<int>& nums){ // O(n^2)
     }
 
     // suffix
-    for (int i = n-2 - 1; i >= 0; i--)
+    for (int i = n-2; i >= 0; i--)
     {
         suffix[i] = suffix[i+1] * nums[i+1];
     }
