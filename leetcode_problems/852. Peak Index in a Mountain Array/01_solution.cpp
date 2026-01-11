@@ -10,15 +10,15 @@ int peakIndexInMountainArray(vector<int> &arr)
     {
         int mid = st + (end - st) / 2;
 
-        if (arr[mid - 1] < arr[mid] && arr[mid] > arr[mid + 1])
+        if (arr[mid - 1] < arr[mid] && arr[mid] > arr[mid + 1]) // mid
         {
             return mid;
         }
-        else if (arr[mid - 1] < arr[mid])
+        else if (arr[mid - 1] < arr[mid]) // left
         {
             st = mid + 1;
         }
-        else
+        else // right
         {
             end = mid - 1;
         }
