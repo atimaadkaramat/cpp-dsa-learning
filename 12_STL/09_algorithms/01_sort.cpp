@@ -24,7 +24,7 @@ int main()
     cout << endl;
 
     sort(vec.begin(), vec.end());
-    for (auto val : arr)
+    for (auto val : vec)
     {
         cout << val << " " ;
     }
